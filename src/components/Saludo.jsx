@@ -1,11 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Saludo(props) {
   console.log(props);
   return (
     <div>
-      {" "}
-      <p>
-        hola me llamo {props.nombre} {props.apellido} y tengo {props.edad} años
-      </p>
+      <p>Hola estoy me llamo props.nombre</p>
     </div>
   );
 }
